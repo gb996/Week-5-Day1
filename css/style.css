@@ -313,6 +313,16 @@ width: 100%;
 	max-width: 480px;
 }
 
+.closeModal{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+#submitbotton{
+width: 50%;
+}
+
 #button-form{
   cursor: pointer;
 }

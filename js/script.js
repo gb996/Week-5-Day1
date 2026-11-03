@@ -1,6 +1,6 @@
 const overlay = document.querySelector('.overlay');
 const formContatto = document.querySelector('form');
-
+const closeModal = document.querySelector('.closeModal');
 const buttonForm = document.getElementById('button-form');
 
 const Nome = document.getElementById('nome');
@@ -22,4 +22,9 @@ const registrazione = {
 buttonForm.addEventListener('click', (e) => {
     e.preventDefault();
     overlay.style.display = 'block';
+});
+
+closeModal.addEventListener('click', (e) => {
+	e.preventDefault();
+	overlay.style.display = 'none';
 });
